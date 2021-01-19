@@ -30,3 +30,15 @@
 *.exe
 *.out
 *.app
+
+
+
+# misc
+*.png
+*.svg
+pillow-simd
+.empty
+openslide
+openslide-python
+opencv
+AVX-AVX2-Example-Code
