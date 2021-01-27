@@ -36,6 +36,7 @@
 # misc
 *.png
 *.svg
+*.jpg
 pillow-simd
 .empty
 openslide
