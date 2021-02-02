@@ -37,6 +37,7 @@
 *.png
 *.svg
 *.jpg
+!tree.jpg
 pillow-simd
 .empty
 openslide
