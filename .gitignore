@@ -46,3 +46,8 @@ AVX-AVX2-Example-Code
 hello
 line
 drawing
+paint
+source_operator
+open
+output.ppm
+.ppm
