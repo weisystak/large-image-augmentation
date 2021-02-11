@@ -52,3 +52,6 @@ source_operator
 open
 output.ppm
 .ppm
+file.txt
+mmap_file
+build

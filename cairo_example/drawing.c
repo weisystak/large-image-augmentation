@@ -1,4 +1,5 @@
 #include <cairo.h>
+#include <stdio.h>
 
 #ifndef M_PI
 #define M_PI 3.14159265358979323846
@@ -18,6 +19,11 @@ int main()
 
     cairo_rectangle(cr, 20, 20, 120, 80);
     cairo_rectangle(cr, 180, 20, 80, 80);
+
+    // cairo_pattern_t *old_pattern = cairo_get_source(cr);
+    // cairo_pattern_type_t t = cairo_pattern_get_type(old_pattern);
+    // printf("pattern type: %d\n", t);
+
     cairo_stroke_preserve(cr);  // 畫出來，保留位置。
     cairo_fill(cr);  // 塗滿顏色
 
