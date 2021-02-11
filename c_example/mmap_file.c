@@ -26,7 +26,7 @@ clock_gettime(CLOCK_MONOTONIC_RAW, &start);
     
     f = (char *) mmap (0, size, PROT_READ, MAP_PRIVATE, fd, 0);
 
-    for (int i = 0; i < size; i++) {
+    for (long long i = 0; i < size; i++) {
         char c;
 
         c = f[i];
