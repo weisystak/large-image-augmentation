@@ -3,7 +3,9 @@ import openslide
 import time
 import cv2
 import numpy as np
-slide_path = "/home/jylin/aetherAI/slides/4098031e-e0dd-4c75-8023-47601e773aca/TCGA-85-8049-01Z-00-DX1.59554c0f-d04a-41f2-b152-654a848b0443.svs"
+# slide_path = "/home/jylin/aetherAI/slides/4098031e-e0dd-4c75-8023-47601e773aca/TCGA-85-8049-01Z-00-DX1.59554c0f-d04a-41f2-b152-654a848b0443.svs"
+slide_path = "/home/u8136408/aetherAI/slides/4098031e-e0dd-4c75-8023-47601e773aca/TCGA-85-8049-01Z-00-DX1.59554c0f-d04a-41f2-b152-654a848b0443.svs"
+
 
 
 a = []
@@ -13,7 +15,7 @@ a.append(time.time())
 
 slide = openslide.open_slide(slide_path)
 
-target_level = 2
+target_level = 0
 
 # for level in range(len(slide.level_downsamples)):
 #     w,h = slide.level_dimensions[level]
@@ -32,7 +34,6 @@ img_rgba = slide.read_region(
     level=target_level,
     size=(target_width, target_height),
 )
-img_rgba.save("custom_level2.png")
 # img = np.array(img_rgba)
 # img = cv2.cvtColor(img_rgba, cv2.COLOR_BGRA2RGB)
 # # Resize the image
@@ -49,6 +50,9 @@ img_rgba.save("custom_level2.png")
     
 a.append(time.time())
 print(f'openslide load image elapsed: {a[-1] - a[-2]}')
+
+# img_rgba.save("custom_level0.png")
+img_rgba.save("orig_level0.png")
 
 
 # 53.24 s
