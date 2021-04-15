@@ -14,22 +14,24 @@ num_scenes = slide.num_scenes
 print(f"num_scenes: {num_scenes}")
 for index in range(0, num_scenes):
     print(slide.get_scene(index).name, slide.get_scene(index).size)
-scene = slide.get_scene(0)
-print( scene.num_t_frames, scene.num_z_slices, scene.compression)
-image = scene.read_block(size= (15587, 19185))
+# scene = slide.get_scene(0)
+# print( scene.num_t_frames, scene.num_z_slices, scene.compression)
+# image = scene.read_block(size= (15587, 19185))
 # image = scene.read_block(size=(1247,1535))
 # image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 # cv2.imwrite("slideio.jpg", image)
-print(f'{type(image)}, {image.shape}')
-a.append(time.time())
-print(f'slideio load image elapsed: {a[-1] - a[-2]}')
+# print(f'{type(image)}, {image.shape}')
+# a.append(time.time())
+# print(f'slideio load image elapsed: {a[-1] - a[-2]}')
 
 
 
 
 
 
-
+'''
+openslide example
+'''
 # a.append(time.time())
 
 # slide = openslide.open_slide(slide_path)

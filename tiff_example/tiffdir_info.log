@@ -1,0 +1,103 @@
+TIFF Directory at offset 0x127ecb38 (310299448)
+  Subfile Type: (0 = 0x0)
+  Image Width: 62350 Image Length: 76743 Image Depth: 1
+  Tile Width: 256 Tile Length: 256
+  Bits/Sample: 8
+  Compression Scheme: 33003 (0x80eb)
+  Photometric Interpretation: RGB color
+  Samples/Pixel: 3
+  Planar Configuration: single image plane
+  ImageDescription: Aperio Image Library v10.2.41
+65000x76843 [0,100 62350x76743] (256x256) J2K/YUV16 Q=70|AppMag = 40|StripeWidth = 1000|ScanScope ID = SS1302|Filename = 27822|Date = 02/24/12|Time = 09:57:27|Time Zone = GMT-07:00|User = 075e8627-ff5a-4ad2-9746-919c1e476e0a|Parmset = EPC|MPP = 0.2520|Left = 27.353107|Top = 20.029240|LineCameraSkew = -0.000389|LineAreaXOffset = 0.000000|LineAreaYOffset = 0.000000|Focus Offset = 0.000000|DSR ID = aperio01|ImageID = 27822|Exposure Time = 109|Exposure Scale = 0.000001|DisplayColor = 0|OriginalWidth = 65000|OriginalHeight = 76843|ICC Profile = ScanScope v1
+  ICC Profile: <present>, 141992 bytes
+
+
+TIFF Directory at offset 0x128d1a84 (311237252)
+  Subfile Type: (0 = 0x0)
+  Image Width: 623 Image Length: 768 Image Depth: 1
+  Bits/Sample: 8
+  Compression Scheme: JPEG
+  Photometric Interpretation: RGB color
+  YCbCr Subsampling: 2, 2
+  Samples/Pixel: 3
+  Rows/Strip: 16
+  Planar Configuration: single image plane
+  ImageDescription: Aperio Image Library v10.2.41
+62350x76743 -> 623x768 - |AppMag = 40|StripeWidth = 1000|ScanScope ID = SS1302|Filename = 27822|Date = 02/24/12|Time = 09:57:27|Time Zone = GMT-07:00|User = 075e8627-ff5a-4ad2-9746-919c1e476e0a|Parmset = EPC|MPP = 0.2520|Left = 27.353107|Top = 20.029240|LineCameraSkew = -0.000389|LineAreaXOffset = 0.000000|LineAreaYOffset = 0.000000|Focus Offset = 0.000000|DSR ID = aperio01|ImageID = 27822|Exposure Time = 109|Exposure Scale = 0.000001|DisplayColor = 0|OriginalWidth = 65000|OriginalHeight = 76843|ICC Profile = ScanScope v1
+  JPEG Tables: (289 bytes)
+
+
+TIFF Directory at offset 0x1568890a (359172362)
+  Subfile Type: (0 = 0x0)
+  Image Width: 15587 Image Length: 19185 Image Depth: 1
+  Tile Width: 256 Tile Length: 256
+  Bits/Sample: 8
+  Compression Scheme: 33003 (0x80eb)
+  Photometric Interpretation: RGB color
+  Samples/Pixel: 3
+  Planar Configuration: single image plane
+  ImageDescription: Aperio Image Library v10.2.41
+65000x76843 [0,100 62350x76743] (256x256) -> 15587x19185 J2K/YUV16 Q=70
+
+
+TIFF Directory at offset 0x15ab69f6 (363555318)
+  Subfile Type: (0 = 0x0)
+  Image Width: 3896 Image Length: 4796 Image Depth: 1
+  Tile Width: 256 Tile Length: 256
+  Bits/Sample: 8
+  Compression Scheme: 33003 (0x80eb)
+  Photometric Interpretation: RGB color
+  Samples/Pixel: 3
+  Planar Configuration: single image plane
+  ImageDescription: Aperio Image Library v10.2.41
+65000x76843 [0,100 62350x76743] (256x256) -> 3896x4796 J2K/YUV16 Q=70
+
+
+TIFF Directory at offset 0x15bc6e04 (364670468)
+  Subfile Type: (0 = 0x0)
+  Image Width: 1948 Image Length: 2398 Image Depth: 1
+  Tile Width: 256 Tile Length: 256
+  Bits/Sample: 8
+  Compression Scheme: 33003 (0x80eb)
+  Photometric Interpretation: RGB color
+  Samples/Pixel: 3
+  Planar Configuration: single image plane
+  ImageDescription: Aperio Image Library v10.2.41
+65000x76843 [0,100 62350x76743] (256x256) -> 1948x2398 J2K/YUV16 Q=70
+
+
+TIFF Directory at offset 0x15c04f14 (364924692)
+  Subfile Type: reduced-resolution image (1 = 0x1)
+  Image Width: 401 Image Length: 321 Image Depth: 1
+  Bits/Sample: 8
+  Compression Scheme: LZW
+  Photometric Interpretation: RGB color
+  Samples/Pixel: 3
+  Rows/Strip: 6
+  Planar Configuration: single image plane
+  ImageDescription: Aperio Image Library v10.2.41
+label 401x321
+  Predictor: horizontal differencing 2 (0x2)
+
+  
+TIFF Directory at offset 0x15c1f464 (365032548)
+  Subfile Type: reduced-resolution image (9 = 0x9)
+  Image Width: 1280 Image Length: 431 Image Depth: 1
+  Bits/Sample: 8
+  Compression Scheme: JPEG
+  Photometric Interpretation: RGB color
+  YCbCr Subsampling: 2, 2
+  Samples/Pixel: 3
+  Rows/Strip: 16
+  Planar Configuration: single image plane
+  ImageDescription: Aperio Image Library v10.2.41
+macro 1280x431
+  JPEG Tables: (289 bytes)
+
+level0 62350*76743  (65000*76843) 244*256=62424,  300*256=76800
+thumbnail
+level1 15587x19185
+level2 3896x4796
+level3 1948x2398
+label
+macro
